@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Increment & Decrement Counter</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- custom css -->
+    <!-- custom js -->
+    <script src="app.js" defer></script>
+    <!-- custom js -->
+  </head>
+  <body>
+    <div class="container" id="root">
+      <!-- header section -->
+      <div class="header-section">
+        <h2>Fill The Form Below</h2>
+        <p>* Negative values are not accepted</p>
+      </div>
+      <!-- header section -->
+      <div class="divider"></div>
+      <!-- display section -->
+      <h2 id="show-Output"></h2>
+      <!-- display section -->
+      <!-- increDecre section -->
+      <div class="increDecre-section">
+        <input
+          type="number"
+          class="increment-Inp"
+          id="increment-Inp"
+          value="1"
+          min="1"
+          max="100"
+        />
+        <div class="increDecre-action-group">
+          <button class="increment-btn" id="increment-btn">Increment</button>
+          <button class="decrement-btn" id="decrement-btn">Decrement</button>
+        </div>
+        <input
+          type="number"
+          class="decrement-Inp"
+          id="decrement-Inp"
+          value="1"
+          min="1"
+          max="100"
+        />
+      </div>
+      <!-- incDecre section -->
+    </div>
+  </body>
+</html>
